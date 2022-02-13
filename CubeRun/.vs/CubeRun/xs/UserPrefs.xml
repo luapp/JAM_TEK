@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{70C7B7A1-068A-61C8-4D07-9F1D01F7A0BC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/cs/cl.cs">
+    <Files>
+      <File FileName="Assets/cs/pm.cs" Line="8" Column="28" />
+      <File FileName="Assets/cs/cl.cs" Line="23" Column="1" />
+      <File FileName="Assets/cs/gm.cs" Line="16" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CubeRun" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4daa37f5-ad2a-41d2-8f0d-ec01a4417b9d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,471 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1644791121947461, "dur":275, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121947739, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1644791121947759, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1644791121947768, "dur":106, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1644791121947882, "dur":183, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121948065, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959350, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959387, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959413, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959423, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959439, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959441, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959455, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959457, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959473, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959475, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959491, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959493, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959510, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959512, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959529, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959530, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959544, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959546, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959561, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959563, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959578, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959584, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121959586, "dur":938, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1644791121947792, "dur":277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121948069, "dur":590, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121948659, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644791121948661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121949207, "dur":120, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644791121949328, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644791121949403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121949609, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1644791121950102, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1644791121950159, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121950609, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951157, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951204, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951435, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951864, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121951875, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952164, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952316, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952738, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952791, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121952899, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121953235, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121954119, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121954232, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121954706, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121954867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121954870, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121955317, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121955645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121955647, "dur":303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121955965, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121956274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121956276, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121956689, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121956947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121956949, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121957380, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121957695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121957697, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958182, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958188, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958519, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1644791121958576, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1644791121959061, "dur":307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121947795, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121948092, "dur":632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121948724, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1644791121948773, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121949620, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1644791121950465, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1644791121950561, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121950700, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1644791121951097, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":2, "ts":1644791121951165, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121951442, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":2, "ts":1644791121951902, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121952479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121952481, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121952881, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121953631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121953633, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121954171, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121954729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121954731, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955113, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955125, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955549, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121955759, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121956102, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121956640, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121956752, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121956992, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121957278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121957280, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121957770, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121957779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121957791, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958157, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958163, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958459, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958465, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958828, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1644791121958834, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1644791121959128, "dur":251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121947804, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121948095, "dur":631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121948727, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1644791121949158, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121949650, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1644791121950448, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1644791121950902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121950933, "dur":351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1644791121951366, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121951859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121951865, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121952129, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121952672, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121952784, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121953316, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121953619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121953620, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954063, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954096, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954148, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954588, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121954911, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121955362, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121955367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121955373, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121955745, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121956211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121956213, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121956478, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121956756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121956764, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957056, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957186, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957777, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121957946, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1644791121958588, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1644791121958615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1644791121958617, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1644791121959127, "dur":270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121947814, "dur":282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121948096, "dur":637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121948733, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1644791121949081, "dur":66, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121949635, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1644791121950456, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1644791121950867, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121951180, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1644791121951505, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121951569, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121951750, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952019, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952163, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952438, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952443, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952819, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121952978, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953231, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953410, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953487, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953816, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121953952, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121954286, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121954442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121954444, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121954909, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121955096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121955098, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121955545, "dur":1316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121956890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121956892, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121957433, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121957438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121957439, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121957777, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121959124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1644791121959126, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1644791121959244, "dur":146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121947820, "dur":277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121948097, "dur":587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121948699, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1644791121948762, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121949783, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1644791121950490, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1644791121950969, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121951240, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1644791121951588, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121952586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121952587, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121952936, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121953268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121953270, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121953538, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121953695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121953707, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954056, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954112, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954454, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954623, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121954945, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121955098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121955101, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121955556, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121955699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121955702, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121956027, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121956687, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121956738, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957069, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957219, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957470, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957652, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121957941, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958108, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958585, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958591, "dur":344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1644791121958937, "dur":414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121947850, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121948098, "dur":589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121948724, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1644791121948800, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121949825, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1644791121950570, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1644791121950632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121950692, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1644791121951264, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux.x86_64" }}
+,{ "pid":12345, "tid":6, "ts":1644791121951326, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121951426, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux.x86_64" }}
+,{ "pid":12345, "tid":6, "ts":1644791121951837, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121952379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121952399, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121952843, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121954799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121954801, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121955054, "dur":937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121956018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121956021, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121956253, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121957129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121957131, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121957508, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121957888, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121957899, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1644791121958504, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1644791121958509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1644791121958511, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1644791121959025, "dur":328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121947852, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121948100, "dur":636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121948737, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1644791121949137, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121949734, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1644791121950543, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1644791121950618, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121950669, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951228, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951273, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951459, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951817, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121951990, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121952367, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121952373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121952375, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121952761, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953044, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953320, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953339, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953536, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953543, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121953839, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121954391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121954394, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121954723, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121955467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121955506, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121955715, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956017, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956291, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956296, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956679, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121956839, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121957267, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121957442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121957444, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121957869, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121958013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121958014, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1644791121958581, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1644791121958614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1644791121958615, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1644791121959052, "dur":306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121947860, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121948101, "dur":576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121948678, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1644791121949056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121949317, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1644791121949945, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1644791121950081, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121950601, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1644791121951153, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1644791121951200, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121951439, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":8, "ts":1644791121951954, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121952663, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121952768, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953212, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953478, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953490, "dur":327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953822, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121953985, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121954288, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121954455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121954475, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121954913, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121955664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121955667, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121955922, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956164, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956419, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956425, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121956749, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121957280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121957317, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121957713, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121957861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121957862, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121958076, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121959209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1644791121959216, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1644791121959332, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1644791121959333, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121947903, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121948102, "dur":587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121948703, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1644791121948731, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121949766, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1644791121950486, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1644791121950582, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121950709, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1644791121951236, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1644791121951306, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121951483, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1644791121951909, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952083, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952379, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952594, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121952960, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121953748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121953750, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121954050, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121954064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121954066, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121954595, "dur":1957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121956553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121956555, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121956783, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121956787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121956789, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957098, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957104, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957498, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121957667, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958136, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958149, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958420, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958425, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958819, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1644791121958825, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1644791121959143, "dur":243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121947904, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121948103, "dur":600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121948711, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1644791121948781, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121949631, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1644791121950500, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1644791121950731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121950735, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951289, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/UnityPlayer.so" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951351, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951458, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/UnityPlayer.so" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951981, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121951989, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121952328, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121952598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121952600, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121952940, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953101, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953369, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953453, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953486, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121953868, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121954090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121954113, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121954500, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121955589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121955591, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121955976, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956021, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956268, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956275, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956661, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121956888, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957319, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957641, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957893, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121957941, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1644791121958589, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1644791121958624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1644791121958626, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/paul/Desktop/JAM_TEK/CubeRunnerLinux_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1644791121959058, "dur":303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1644791121961168, "dur":309, "ph":"X", "name": "ProfilerWriteOutput" }
+,
